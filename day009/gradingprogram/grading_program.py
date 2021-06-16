@@ -22,7 +22,7 @@ student_grades = {}
 
 #TODO-2: Write your code below to add the grades to student_grades.👇
 for student in student_scores:
-    ScoreToGrade(student_scores, student_grades, student)   
+    score_to_grade(student_scores, student_grades, student)   
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
