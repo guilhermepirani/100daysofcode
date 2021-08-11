@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+        <title>My website</title>
+    </head>
+    <body>
+        <h1>Hello, world!</h1>
+        <h3>Random number: {{ num }}</h3>
+
+        <a href="{{ url_for('blog') }}">Get to Blog</a>
+        <a href="{{ url_for('guess', name='visitor') }}">Get to Guess by name</a>
+    </body>
+    <footer>Copyright &copy {{ year }}. Built by <a href="https://www.linkedin.com/in/guilhermepirani/">Guilherme Pirani</a>.</footer>
+</html>
